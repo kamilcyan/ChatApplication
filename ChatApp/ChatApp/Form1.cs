@@ -25,7 +25,7 @@ namespace ChatApp
             sck.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
 
             LocalIpTextBox.Text = GetLocalIp();
-            FriendsIpTextBox.Text = GetLocalIp();
+            FriendsIpTextBox.Text = "";
         }
 
         private string GetLocalIp()
